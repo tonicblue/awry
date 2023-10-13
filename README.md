@@ -138,7 +138,7 @@ I genuinely think it might be neat to provide extensions for Array iterator func
 # Known issues
 
 * It adds a bit of latency where you wouldn't usually expect it, but hey, it's all about the journey.
-* Sometimes for some reason under some circumstances, properties may not be immediately available. I have my suspicions but haven't bother to do anything about it.
+* Sometimes for some reason under some circumstances, properties may not be immediately available. I have my suspicions but haven't bothered to do anything about it.
 
 # FAQ
 
