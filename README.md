@@ -3,8 +3,8 @@
 `Awry` is a simple little extension to the JavaScript `Array` object to solve the age old debate of whether or not indices should be index `0`, or `1`. `Awry` posits that neither are optimal in every circumstance and allowing the user to change where arrays start may be confusing to readers. When doing computery stuff, we still suggest using index `0` which `Awry` obviously supports; **BUT** when it comes to those icky-squishy humans, `Awry` offers an alternative.
 
 ```typescript
-const myFavouriteNumbersInDescendingPreferenceOrder = Awry(3, 5, 9, 11);
-console.log(`My favourite number is ${myFavouriteNumbersInDescendingPreferenceOrder.first}`);
+const myFavouriteNumbersInAscendingPreferenceOrder = Awry(3, 5, 9, 11);
+console.log(`My favourite number is ${myFavouriteNumbersInAscendingPreferenceOrder.first}`);
 // -> My favourite number is 3
 ```
 
