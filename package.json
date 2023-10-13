@@ -1,11 +1,12 @@
 {
   "name": "awrys",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "module": "src/awry.ts",
   "homepage": "https://github.com/tonicblue/awry#README",
   "repository": {
     "url": "https://github.com/tonicblue/awry"
   },
+  "license": "GPL-3.0",
   "devDependencies": {
     "bun-types": "latest"
   },
