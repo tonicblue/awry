@@ -14,20 +14,20 @@ I hope you can see where we are going with this. All features explained below. B
 
 ## Installation
 
-You can install awry into any JavaScript project using any tool that can grab packages from NPM. For examples:
+You can install `Awry` into any JavaScript project using any tool that can grab packages from NPM. For examples:
 
 ```bash
 # The NPM package manager (Node's Node Package Manager package manager)
-npm i -S 'awry'
+npm i -S 'awrys'
 
 # Yarn (Facebook's Node Package Manager)
-yarn i 'awry'
+yarn i 'awrys'
 
 # PNPM (🔥🔥NPM🔥🔥)
-pnpm i 'awry'
+pnpm i 'awrys'
 
 # Bun (🥟)
-bun i 'awry'
+bun i 'awrys'
 ```
 
 We are confident this will be picked up by all the popular CDNs and can be directly injected into your HTML via `<script>` tag really soon. The minified size is only 1.96 KB!
@@ -38,7 +38,7 @@ Just import or require it. We are only outputting ESM just now because that's al
 
 ```typescript
 // TypeScript standard
-import Awry from 'awry';
+import Awry from 'awrys';
 
 // REPL?
 const { Awry } = await import('./build/awry.js');
